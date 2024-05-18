@@ -3,12 +3,13 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #f9f9f9; /* 背景色を淡いグレーに */
+    color: #333; /* 文字色を濃いグレーに */
 }
 
 header {
-    background-color: #333;
-    color: #fff;
+    background-color: #004080; /* ヘッダーの背景色を深い青に */
+    color: #fff; /* ヘッダーの文字色を白に */
     padding: 10px 0;
     text-align: center;
 }
@@ -28,13 +29,13 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #fff;
+    color: #fff; /* ナビゲーションリンクの文字色を白に */
     text-decoration: none;
     padding: 5px 10px;
 }
 
 nav ul li a:hover {
-    background-color: #575757;
+    background-color: #0066cc; /* ナビゲーションリンクのホバー時の背景色を少し明るい青に */
     border-radius: 5px;
 }
 
@@ -47,24 +48,23 @@ section {
 }
 
 .block {
-    background-color: #fff;
+    background-color: #fff; /* ブロックの背景色を白に */
     padding: 15px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 h2 {
-    border-bottom: 2px solid #333;
+    border-bottom: 2px solid #004080; /* 見出しの下線色を深い青に */
     padding-bottom: 5px;
+    color: #004080; /* 見出しの文字色を深い青に */
 }
 
 footer {
-    background-color: #333;
-    color: #fff;
+    background-color: #004080; /* フッターの背景色を深い青に */
+    color: #fff; /* フッターの文字色を白に */
     text-align: center;
     padding: 10px 0;
-    position: fixed;
-    bottom: 0;
     width: 100%;
 }
 
